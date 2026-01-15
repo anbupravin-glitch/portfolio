@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Model</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-200">
+    <section class="bg-blue-600 shadow-xl " id="home">
+        <div class=" container mx-auto px-4 py-6 flex items-center justify-between">
+            <h1 class="text-4xl md:text-5xl font-bold my-6 text-white">My Portfolio</h1>
+            <div class=" md:flex space-x-6 text-white text-xl font-semibold">
+                <a class="hover:text-gray-700" href="#home">Home</a>
+                <a class="hover:text-gray-700" href="#projects">Projects</a>
+                <a class="hover:text-gray-700" href="#contact">Contact</a>
+                
+            </div>
+        </div>
+    </section>
+    <section class="shadow-lg bg-white py-12">
+        <div class="mx-auto container mt-24 flex items-center justify-center space-x-10 flex-col md:flex-row space-y-20 md:space-y-0 px-8 ">
+            <p class="font-bold text-4xl md:text-5xl">Hello! I am <span class="text-blue-700">Anbu Pravin</span> , a passionate web developer.</p>
+            <img class="rounded-xl" src="https://picsum.photos/400/400" alt="">
+        </div>
+    </section>
+    <section class="bg-white py-16 px-4 " id="about">
+        <div class="mx-auto container bg-gray-10">
+            <h1 class="font-bold text-3xl md:text-4xl">About <span class="text-blue-700">Me</span></h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 text-gray-500 font-semibold text-xl px-4 leading-relaxed ">
+                <p class="bg-gray-200 p-4 rounded-md hover:shadow-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                <img class="mx-auto rounded-xl hover:shadow-xl transition" src="https://picsum.photos/400/400" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-16 px-4" id="projects">
+        <div class="mx-auto container">
+            <h1 class="font-bold text-3xl md:text-4xl mb-12">My <span class="text-blue-700">Projects</span></h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img class="w-full h-120 object-cover" src="https://picsum.photos/400/300" alt="Project 1">
+                    <div class="p-6">   
+                        <h3 class="font-bold text-xl text-gray-800 mb-2">Samathuva Kalvi</h3>
+                        <p class="text-gray-600 font-semibold text-md leading-relaxed">An e-learning website for school students with interactive challenges, quizzes, and progress tracking.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img class="w-full h-120 object-cover" src="https://picsum.photos/400/300" alt="Project 2">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl text-gray-800 mb-2">Storify</h3>
+                        <p class="text-gray-600 font-semibold text-md leading-relaxed">A smart inventory management and billing software for stores.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img class="w-full h-120 object-cover" src="https://picsum.photos/400/300" alt="Project 3">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl text-gray-800 mb-2">Weather Dashboard</h3>
+                        <p class="text-gray-600 font-semibold text-md leading-relaxed">A real-time weather application displaying current conditions, forecasts, and weather alerts for multiple locations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white" id="contact">
+        <div class="mx-auto container px-4 py-6">
+            <h1 class="font-bold text-3xl md:text-4xl">Get In <span class="font-bold text-blue-700">Touch</span></h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 px-4 gap-8 mb-16 container mx-auto py-16">
+            <div class="bg-gray-400 mx-auto container px-4 rounded-lg py-6 ">
+                <p class="text-center p-4 font-semibold text-xl ">Lorem Ipsum is simply dummy text</p>
+                <div class="text-center flex flex-col items-center text-lg font-bold text-gray-700 space-y-2  justify-around ">
+                <p>Phone No : +91-8807571445</p>
+                <p>Email : anbupravin@student.tce.edu</p>
+                <p>Place : Madurai, Tamil Nadu, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
